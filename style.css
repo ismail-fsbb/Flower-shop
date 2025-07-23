@@ -16,6 +16,10 @@ p,li{
     font-size: 22px;
 }
 
+section{
+    padding: 60px 0px;
+}
+
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -70,5 +74,8 @@ p,li{
     }
     .section_title{
         font-size: 24px;
+    }
+    section{
+        padding: 25px 0px;
     }
 }
