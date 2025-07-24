@@ -52,6 +52,20 @@ section{
     transition: all 0.5s ease-in-out;
 }
 
+.nav_link{
+    color: #8987A1;
+    text-transform: capitalize;
+    transition: .4s all ease;
+}
+.nav_link:hover{
+    color: var(--dark);
+    transition: .4s all ease;
+}
+.nav_btn{
+    font-family: var(--secondary-font);
+    font-weight:400;
+}
+
 /* Plants section */
 .flower_name{
     font-size: 22px;
@@ -64,6 +78,10 @@ section{
     font-size: 22px;
     font-weight: 700;
 }
+
+.badge {
+    animation: spin 10s linear infinite;
+  }
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
     p,li{
@@ -78,4 +96,10 @@ section{
     section{
         padding: 25px 0px;
     }
+}
+
+/* Spin Animation */
+@keyframes spin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
