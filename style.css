@@ -98,6 +98,21 @@ section{
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    p,li{
+        font-size: 18px;
+    }
+    .flower_name,.flower_price,.btn{
+        font-size: 12px;
+    }
+    .section_title{ 
+        font-size: 30px;
+    }
+    section{
+        padding: 30px 0px;
+    }
+}
+
 /* Spin Animation */
 @keyframes spin {
     0%   { transform: rotate(0deg); }
